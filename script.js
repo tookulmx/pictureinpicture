@@ -1,3 +1,4 @@
+const buttonShare = document.getElementById('another-button');
 const button = document.getElementById('button-start');
 const videoElement = document.getElementById('video');
 
@@ -26,5 +27,5 @@ button.addEventListener('click', async () => {
     button.disabled = false;
 }
 );
-// On Load
-selectMediaStream();
+
+buttonShare.addEventListener('click', selectMediaStream)
