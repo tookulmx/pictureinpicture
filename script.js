@@ -28,4 +28,4 @@ button.addEventListener('click', async () => {
 }
 );
 
-buttonShare.addEventListener('click', selectMediaStream)
+buttonShare.addEventListener('click', selectMediaStream);
